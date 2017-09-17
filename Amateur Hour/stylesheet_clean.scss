@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+body {
+  background-color:#CAC4CE;
+  font-family: 'Crimson Text', serif;
+  margin-left: 12%;
+  margin-right: 12%;
+  border-style: solid;
+  border-width: .25rem;
+  border-color: black;
+  text-align: center;
+
+  header {
+    border:none;
+    background-color: #34113F;
+  }
+
+  section {
+    background-color: #FFF2F1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    border-style: solid;
+    border-width: .25rem;
+    border-color: black;
+
+  }
+
+
+  footer {
+    color: white;
+    font-size: .5rem;
+    line-height: 1.5rem;
+    border-style: solid;
+    border-width: .25rem;
+    border-color: black;
+  }
+
+
+}
+
+
+
+h1 {
+  font-famiy: 'Over the Rainbow';
+  background-image: url('http://cdn.wallpapersafari.com/11/28/4upv7d.jpg');
+  height: 6.25rem;
+  font-size: 2.75rem;
+  margin: 0;
+}
+
+h2, h5 {
+  text-align: left;
+}
+
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #34113F;
+  font-size: .75rem;
+  font-family: Arial, sans-serif;
+
+  a {
+    display: block;
+    color: white;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: cyan;
+    }
+
+}
+
+
+
+.categories {
+  background-color: #34113F;
+  position: sticky;
+  font-family: Arial, sans-serif;
+  float: left;
+  display: inline;
+
+
+  a {
+    text-decoration: none;
+    font-size: .75rem;
+    color: white;
+    display: block;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    :hover {
+      color: cyan;
+    }
+
+  }
+
+  }
+
+  .poetry {
+    text-align: left;
+  }
